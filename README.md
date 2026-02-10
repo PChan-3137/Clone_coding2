@@ -26,13 +26,29 @@
 
 ## 파일 구조
 ```
-/
+project/
 ├─ index.html
-├─ reset.css
-├─ font.css
-├─ style.css
-├─ swiper.css
-├─ script.js
-└─ img/
+├─ css/
+│  ├─ style.css
+│  ├─ style.scss
+│  ├─ _header.scss
+│  ├─ _footer.scss
+│  ├─ _visual.scss
+│  ├─ _research.scss
+│  ├─ _news.scss
+│  ├─ _banner.scss
+│  ├─ _media.scss
+│  ├─ _popup.scss
+│  ├─ base/
+│  │  ├─ _library.scss
+│  │  ├─ _mixin.scss
+│  │  └─ _reset.scss
+├─ img/
+├─ js/
+│  ├─ header.js
+│  ├─ newsData.js
+│  ├─ popup.js
+│  └─ script.js
+
 ```
 
