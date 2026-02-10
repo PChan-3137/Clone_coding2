@@ -1,0 +1,18 @@
+<svg id="_01" data-name="01" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.583" height="44.846" viewBox="0 0 39.583 44.846">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.605" y1="1.367" x2="0.38" y2="0.176" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8ddcfd"/>
+      <stop offset="1" stop-color="#3d6bfa"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.8" y1="1.243" x2="0.8" y2="-0.173" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3e6efa"/>
+      <stop offset="1" stop-color="#8ddcfd"/>
+    </linearGradient>
+  </defs>
+  <path id="패스_29463" data-name="패스 29463" d="M460.022,850.763c0,1.144-.776,1.557-1.726.915l-12.11-8.2a3.327,3.327,0,0,0-3.451,0l-12.109,8.2c-.949.642-1.726.229-1.726-.915v-41.08a2.089,2.089,0,0,1,2.083-2.083h26.954a2.089,2.089,0,0,1,2.083,2.083v41.08Z" transform="translate(-424.67 -807.135)" fill="url(#linear-gradient)"/>
+  <path id="패스_29464" data-name="패스 29464" d="M451.686,811.108a20.7,20.7,0,0,0-.3-3.508h-20.4a2.089,2.089,0,0,0-2.083,2.083v21.965a20.652,20.652,0,0,0,22.785-20.54Z" transform="translate(-424.67 -807.135)" fill="#fff" opacity="0.2"/>
+  <path id="패스_29465" data-name="패스 29465" d="M462.391,810.4a3.473,3.473,0,0,1-3.472,3.472H426.28a3.472,3.472,0,0,1-3.472-3.472h0a3.472,3.472,0,0,1,3.472-3.472h32.638a3.472,3.472,0,0,1,3.472,3.472Z" transform="translate(-422.808 -806.93)" fill="url(#linear-gradient-2)"/>
+  <g id="그룹_21150" data-name="그룹 21150" transform="translate(13.361 13.029)">
+    <path id="패스_29466" data-name="패스 29466" d="M452.823,836.449l-.471-2.751s1.851-1.835,1.935-1.917c.964-.94.78-1.865-.353-2.192l-3.061-.445-1.331-2.7c-.618-1.008-1.508-1.008-2.125,0l-1.331,2.7-3.062.445c-1.133.326-1.317,1.251-.353,2.192.083.081,1.936,1.917,1.936,1.917l-.472,2.751c-.185,1.382.671,1.965,1.952,1.292.115-.061,2.393-1.23,2.393-1.23s2.278,1.169,2.393,1.23C452.153,838.414,453.009,837.831,452.823,836.449Z" transform="translate(-442.047 -825.693)" fill="#fff"/>
+  </g>
+</svg>

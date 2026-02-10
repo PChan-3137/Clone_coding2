@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- POPUP -->
+  <div class="popup" id="Popup">
+    <div class="popup-overlay"></div>
+    <div class="popup-inner">
+      <p class="popup-title">KIOM POPUP</p>
+      <div class="popup-content">
+      </div>
+      <div class="popup-bottom">
+        <div class="popup-side">
+          <p>팝업건수 : 총 <span>1</span>건</p>
+        </div>
+        <div class="popup-button">
+          <button class="popup-close">닫기 x</button>
+          <button class="popup-close-date">오늘하루열지않기 x</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <!-- header -->
+    <header id="hedaer" class="header">
+      <div class="container">
+        <h1 class="logo">
+          <a href="index.html"><img src="img/logo.png" alt=""></a>
+        </h1>
+        <div class="gnb-wrap">
+          <div class="gnb1">
+            <ul class="top-menu">
+              <li class="depth1">
+                <span>연구분야</span>
+                <div class="sub-menu">
+                  <div class="sub-menu-inner">
+                    <div class="sub-left">
+                      <h3 class="title">연구분야<span>Research Area</span></h3>
+                      <div class="image"><img src="img/beofore_01.png" alt=""></div>
+                    </div>
+                    <ul class="sub-right">
+                      <li><a href="#none">한의과학연구부</a></li>
+                      <li><a href="#none">한의약융합연구부</a></li>
+                      <li><a href="#none">디지털임상연구부</a></li>
+                      <li><a href="#none">한의약데이터부</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="depth1">
+                <span>연구성과</span>
+                <div class="sub-menu">
+                  <div class="sub-menu-inner">
+                    <div class="sub-left">
+                      <h3 class="title">연구성과<span>Key accomplishments</span></h3>
+                      <div class="image"><img src="img/beofore_02.png" alt=""></div>
+                    </div>
+                    <ul class="sub-right">
+                      <li><a href="#none">논문</a></li>
+                      <li><a href="#none">연구보고서</a></li>
+                      <li><a href="#none">기술이전</a></li>
+                      <li><a href="#none">판매도서</a></li>
+                      <li><a href="#none">출판물</a></li>
+                      <li><a href="#none">웹서비스</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="depth1">
+                <span>고객참여</span>
+                <div class="sub-menu">
+                  <div class="sub-menu-inner">
+                    <div class="sub-left">
+                      <h3 class="title">고객참여<span>Communication</span></h3>
+                      <div class="image"><img src="img/beofore_03.png" alt=""></div>
+                    </div>
+                    <ul class="sub-right">
+                      <li>
+                        <a href="#none">견학신청</a>
+                        <ul class="depth3">
+                          <li>견학안내</li>
+                          <li>견학신청</li>
+                          <li>견학신청 확인</li>
+                          <li>찾아오시는 길</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#none">참여프로그램</a>
+                        <ul class="depth3">
+                          <li>한의과학체험프로그램</li>
+                          <li>인재양성프로그램</li>
+                          <li>대중참여프로그램</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#none">고객의소리</a>
+                        <ul class="depth3">
+                          <li>Q&A</li>
+                          <li>홈페이지 개선의견</li>
+                          <li>고객헌장ㆍ서비스 이행표준</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#none">신고센터</a>
+                        <ul class="depth3">
+                          <li>청렴신고센터</li>
+                          <li>연구부정행위신고센터</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="depth1">
+                <span>정보공개</span>
+                <div class="sub-menu">
+                  <div class="sub-menu-inner">
+                    <div class="sub-left">
+                      <h3 class="title">정보공개<span>Information</span></h3>
+                      <div class="image"><img src="img/beofore_04.png" alt=""></div>
+                    </div>
+                    <ul class="sub-right">
+                      <li><a href="#none">경영공시</a></li>
+                      <li><a href="#none">정보공개안내</a></li>
+                      <li><a href="#none">정보목록</a></li>
+                      <li><a href="#none">발간자료목록</a></li>
+                      <li><a href="#none">공공데이터개방</a></li>
+                      <li><a href="#none">사업실명제</a></li>
+                      <li><a href="#none">사전정보공표</a></li>
+                      <li><a href="#none">자체외부감사결과</a></li>
+                      <li><a href="#none">수의계약현황</a></li>
+                      <li><a href="#none">업무추진비사용내역</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="depth1">
+                <span>연구원소식</span>
+                <div class="sub-menu">
+                  <div class="sub-menu-inner">
+                    <div class="sub-left">
+                      <h3 class="title">연구원소식<span>KIOM News</span></h3>
+                      <div class="image"><img src="img/beofore_05.png" alt=""></div>
+                    </div>
+                    <ul class="sub-right">
+                      <li><a href="#none">공지사항</a></li>
+                      <li>
+                        <a href="#none">KIOM 미디어</a>
+                        <ul class="depth3">
+                          <li>KIOM뉴스</li>
+                          <li>홍보동영상</li>
+                          <li>포토갤러리</li>
+                          <li>온라인콘텐츠</li>
+                          <li>홍보간행물</li>
+                          <li>미디어채널</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#none">채용정보</a>
+                        <ul class="depth3">
+                          <li>채용안내</li>
+                          <li>채용공고</li>
+                          <li>합격자확인</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#none">입찰정보</a>
+                        <ul class="depth3">
+                          <li>입찰공고</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#none">인프라지원</a>
+                        <ul class="depth3">
+                          <li>공동기기 이용</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="depth1">
+                <span>연구원소개</span>
+                <div class="sub-menu">
+                  <div class="sub-menu-inner">
+                    <div class="sub-left">
+                      <h3 class="title">연구원소개<span>About KIOM</span></h3>
+                      <div class="image"><img src="img/beofore_06.png" alt=""></div>
+                    </div>
+                    <ul class="sub-right">
+                      <li><a href="#none">인사말</a></li>
+                      <li>
+                        <a href="#none">KIOM 소개</a>
+                        <ul class="depth3">
+                          <li>설립목적</li>
+                          <li>연혁</li>
+                          <li>역대원장</li>
+                          <li>CI</li>
+                          <li>안전보건경영방침</li>
+                        </ul>
+                      </li>
+                      <li><a href="#none">비전 및 전략</a></li>
+                      <li>
+                        <a href="#none">조직안내</a>
+                        <ul class="depth3">
+                          <li>조직도</li>
+                          <li>부서소개</li>
+                        </ul>
+                      </li>
+                      <li><a href="#none">WHO 전통의학협력센터</a></li>
+                      <li>
+                        <a href="#none">대외협력</a>
+                        <ul class="depth3">
+                          <li>국제협력</li>
+                          <li>국내협력</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#none">찾아오시는길</a>
+                        <ul class="depth3">
+                          <li>대전본원</li>
+                          <li>한의기술응용센터(대구)</li>
+                          <li>한약자원연구센터(전남)</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="gnb2">
+            <ul class="gnb2-nav">
+              <li><span>한의기술응용센터</span></li>
+              <li><span>한약자원연구센터</span></li>
+              <li><span>외부포털</span></li>
+              <li><span>내부포털</span></li>
+              <li><span>ENG</span></li>
+              <li class="pop-btn">POPUP<ion-icon name="chevron-down-outline"></ion-icon></li>
+            </ul>
+          </div>
+        </div>
+        <div class="search">
+          <ion-icon name="search-outline"></ion-icon>
+          <div class="search-container">
+            <div class="search-inner">
+              <h1 class="search-title">통합검색</h1>
+              <div class="search-box">
+                <input type="text" class="search-input" placeholder="검색어를 입력해주세요">
+                <button class="searchbtn">
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+
+              </div>
+              <button class="search-close">닫기<ion-icon name="close-outline"></ion-icon></button>
+            </div>
+          </div>
+        </div>
+        <div class="allmenu">
+          <a href="#none" class="citemap">
+            <ion-icon name="menu-outline"></ion-icon>
+          </a>
+
+          <div class="mobile">
+            <nav class="m-nav" id="m-nav">
+              <ul class="m-nav-head">
+                <li>한의기술응용센터</li>
+                <li>한약자원연구센터</li>
+                <li>외부포털</li>
+                <li>내부포털</li>
+                <li>ENG</li>
+              </ul>
+              <ul class="m-nav-inner">
+                <li class="m-nav-menu1 active">
+                  <a href="#none">연구분야</a>
+                  <div class="m-nav-submenu">
+                    <ul class="sub01">
+                      <li>한의과학연구부</li>
+                      <li>한의약융합연구부</li>
+                      <li>디지털임상연구부</li>
+                      <li>한의약데이터부</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="m-nav-menu2">
+                  <a href="#none">연구성과</a>
+                  <div class="m-nav-submenu">
+                    <ul class="sub02">
+                      <li>논문</li>
+                      <li>연구보고서</li>
+                      <li>기술이전</li>
+                      <li>판매도서</li>
+                      <li>출판물</li>
+                      <li>웹서비스</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="m-nav-menu3">
+                  <a href="#none">고객참여</a>
+                  <div class="m-nav-submenu">
+                    <ul class="sub03">
+                      <li>견학신청
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">견학안내</a></li>
+                            <li class="sub-detail-item"><a href="#none">견학신청</a></li>
+                            <li class="sub-detail-item"><a href="#none">견학신청 확인</a></li>
+                            <li class="sub-detail-item"><a href="#none">찾아오시는 길</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li>참여프로그램
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">한의과학체험프로그램</a></li>
+                            <li class="sub-detail-item"><a href="#none">인재양성프로그램</a></li>
+                            <li class="sub-detail-item"><a href="#none">대중참여프로그램</a></li>
+                        </div>
+                      </li>
+                      <li>고객의소리
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">Q&A</a></li>
+                            <li class="sub-detail-item"><a href="#none">홈페이지 개선의견</a></li>
+                            <li class="sub-detail-item"><a href="#none">고객헌장ㆍ서비스 이행표준</a></li>
+                        </div>
+                      </li>
+                      <li>신고센터
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">청렴신고센터</a></li>
+                            <li class="sub-detail-item"><a href="#none">연구부정행위신고센터</a></li>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="m-nav-menu4">
+                  <a href="#none">정보공개</a>
+                  <div class="m-nav-submenu">
+                    <ul class="sub04">
+                      <li>경영공시</li>
+                      <li>정보공개안내</li>
+                      <li>정보목록</li>
+                      <li>발간자료목록</li>
+                      <li>공공데이터개방</li>
+                      <li>사업실명제</li>
+                      <li>사전정보공표</li>
+                      <li>자체외부감사결과</li>
+                      <li>수의계약현황</li>
+                      <li>업무추진비사용내역</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="m-nav-menu5">
+                  <a href="#none">연구원소식</a>
+                  <div class="m-nav-submenu">
+                    <ul class="sub05">
+                      <li>공지사항</li>
+                      <li>KIOM 미디어
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">KIOM뉴스</a></li>
+                            <li class="sub-detail-item"><a href="#none">홍보동영상</a></li>
+                            <li class="sub-detail-item"><a href="#none">포토갤러리</a></li>
+                            <li class="sub-detail-item"><a href="#none">온라인콘텐츠</a></li>
+                            <li class="sub-detail-item"><a href="#none">홍보간행물</a></li>
+                            <li class="sub-detail-item"><a href="#none">미디어채널</a></li>
+                        </div>
+                      </li>
+                      <li>채용정보
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">채용안내</a></li>
+                            <li class="sub-detail-item"><a href="#none">채용공고</a></li>
+                            <li class="sub-detail-item"><a href="#none">합격자확인</a></li>
+                        </div>
+                      </li>
+                      <li>입찰정보
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">입찰공고</a></li>
+                        </div>
+                      </li>
+                      <li>인프라지원
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">공동기기 이용</a></li>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="m-nav-menu6">
+                  <a href="#none">연구원소개</a>
+                  <div class="m-nav-submenu">
+                    <ul class="sub06">
+                      <li>인사말</li>
+                      <li>KIOM 소개
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">설립목적</a></li>
+                            <li class="sub-detail-item"><a href="#none">연혁</a></li>
+                            <li class="sub-detail-item"><a href="#none">역대원장</a></li>
+                            <li class="sub-detail-item"><a href="#none">CI</a></li>
+                            <li class="sub-detail-item"><a href="#none">안전보건경영방침</a></li>
+                        </div>
+                      </li>
+                      <li>비전 및 전략</li>
+                      <li>조직안내
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">조직도</a></li>
+                            <li class="sub-detail-item"><a href="#none">부서소개</a></li>
+                        </div>
+                      </li>
+                      <li>WHO 전통의학협력센터</li>
+                      <li>대외협력
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">국제협력</a></li>
+                            <li class="sub-detail-item"><a href="#none">국내협력</a></li>
+                        </div>
+                      </li>
+                      <li>찾아오시는길
+                        <div>
+                          <ul class="sub-detail">
+                            <li class="sub-detail-item"><a href="#none">대전본원</a></li>
+                            <li class="sub-detail-item"><a href="#none">한의기술응용센터(대구)</a></li>
+                            <li class="sub-detail-item"><a href="#none">한의기술응용센터(전남)</a></li>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <div class="mobile-close"><ion-icon name="close-outline"></ion-icon></div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main visual swiper -->
+    <div class="swiper-section swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-desc="오늘보다 더 건강한 내일을 연구하는<br>한국한의학연구원"><img src="img/slide1.png" alt=""></div>
+        <div class="swiper-slide" data-desc="전통에서 미래로,<br>세계를 선도하는 우리 의학"><img src="img/slide2.png" alt=""></div>
+        <div class="swiper-slide" data-desc="글로벌 바이오헬스케어<br>한국한의학연우원이 선도합니다."><img src="img/slide3.png" alt=""></div>
+        <div class="swiper-slide" data-desc="오늘보다 더 건강한 내일을 연구하는<br>한국한의학연구원"><img src="img/slide4.png" alt=""></div>
+        <div class="swiper-slide" data-desc="전통에서 미래로,<br>세계를 선도하는 우리 의학"><img src="img/slide5.png" alt=""></div>
+        <div class="swiper-slide" data-desc="글로벌 바이오헬스케어<br>한국한의학연우원이 선도합니다."><img src="img/slide6.png" alt=""></div>
+      </div>
+      <div class="visual-inner">
+        <div class="visual-left">
+          <div class="text-fixed">
+            <h2>KOREA INSTITUTE OF ORIENTAL MEDICINE</h2>
+            <p class="slide-text">KIOM 주요 연구 및 소식 안내</p>
+          </div>
+          <div class="swiper-control">
+            <div class="swiper-button-prev"></div>
+            <div class="circle-wrap">
+              <svg class="progress-ring" width="44" height="44">
+                <circle class="progress-ring-bg" cx="22" cy="22" r="19" />
+                <circle class="progress-ring-fill" cx="22" cy="22" r="19" />
+              </svg>
+              <button class="swiper-toggle">
+                <span class="icon-pause"></span>
+              </button>
+            </div>
+            <div class="swiper-button-next"></div>
+
+          </div>
+        </div>
+        <div class="visual-right">
+          <div class="visual-search">
+            <div class="search-box">
+              <input type="text" class="search-input" placeholder="검색어를 입력해주세요">
+              <button class="searchbtn">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="quick-btns">
+            <a href="#none" class="quick-btn">
+              <img src="img/visual_ico01.svg" alt="">
+              <span>공지사항</span>
+            </a>
+            <a href="#none" class="quick-btn">
+              <img src="img/visual_ico02.svg" alt="">
+              <span>KIOM뉴스</span>
+            </a>
+            <a href="#none" class="quick-btn">
+              <img src="img/visual_ico03.svg" alt="">
+              <span>채용정보</span>
+            </a>
+            <a href="#none" class="quick-btn">
+              <img src="img/visual_ico04.svg" alt="">
+              <span>입찰정보</span>
+            </a>
+            <a href="#none" class="quick-btn">
+              <img src="img/visual_ico05.svg" alt="">
+              <span>한의학고전DB</span>
+            </a>
+            <a href="#none" class="quick-btn">
+              <img src="img/visual_ico06.svg" alt="">
+              <span>전통의학정보포털<br>오아시스</span>
+            </a>
+            <a href="#none" class="quick-btn">
+              <img src="img/visual_ico07.svg" alt="">
+              <span>한의임상<br>정보서비스</span>
+            </a>
+            <a href="#none" class="quick-btn">
+              <img src="img/visual_ico08.svg" alt="">
+              <span>한의온라인<br>정책서비스</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-info">
+        <p>scroll</p>
+        <span>
+          <ion-icon name="chevron-down-outline"></ion-icon>
+        </span>
+        <span>
+          <ion-icon name="chevron-down-outline"></ion-icon>
+        </span>
+      </div>
+    </div>
+    <!-- research -->
+    <section class="research">
+      <div class="section-inner">
+        <p class="section-sub">Research</p>
+        <h2 class="section-title">
+          KIOM, the N.E.X.T. 더 높이 더 멀리 한의학의 새로운 가치를 실현합니다.
+        </h2>
+        <div class="section-content">
+
+          <div class="section-left">
+            <div class="section-head">
+              <h2>최신 연구성과</h2>
+              <div class="research-control">
+                <div class="research-pagination">
+                  <span class="current">01</span>
+                  <div class="progressbar">
+                    <span class="bar"></span>
+                  </div>
+                  <span class="total">06</span>
+                </div>
+                <div class="research-nav">
+                  <div class="swiper-button-prev"></div>
+                  <div class="btn">
+                    <button class="play-btn"><ion-icon name="play-outline"></ion-icon></button>
+                    <button class="pause-btn"><ion-icon name="pause-outline"></ion-icon></button>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+            <div class="research-swiper swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="img/research1-1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research1-2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research1-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research1-4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research1-5.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research1-6.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-right">
+            <div class="section-head">
+              <h2>포토갤러리</h2>
+              <a href="#" class="more"><ion-icon name="add-outline"></ion-icon></a>
+            </div>
+            <div class="swiper photo-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="img/research2-1.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">시무식</p>
+                    <p class="slide-date">2026-01-05</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research2-2.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">정년퇴임식</p>
+                    <p class="slide-date">2026-01-05</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research2-3.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">AI와 첨단바이오의 만남, 한의학 R&D의 미래를 잇다 세미나</p>
+                    <p class="slide-date">2025-12-11</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research2-4.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">2025년 여직원협의회 총회 및 특강</p>
+                    <p class="slide-date">2025-12-11</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research2-5.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">황정아 의원 방문 정책간담회</p>
+                    <p class="slide-date">2025-12-11</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research2-6.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">개원 31주년 기념식</p>
+                    <p class="slide-date">2025-10-02</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research2-7.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">제14기 어린이 본초탐사대</p>
+                    <p class="slide-date">2025-10-01</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research2-8.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">태국 치앙마이대학교 기관 방문</p>
+                    <p class="slide-date">2025-06-17</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research2-9.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">정부부처 과장급 출연연 현장학습 기관 방문</p>
+                    <p class="slide-date">2025-06-17</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/research2-10.jpg" alt="">
+                  <div class="slide-title">
+                    <p class="slide-name">한국한의학연구원-대전상공회의소 업무협약식</p>
+                    <p class="slide-date">2025-02-06</p>
+                  </div>
+                </div>
+              </div>
+              <div class="photo-control">
+                <div class="photo-pagination"></div>
+                <div class="photo-btn">
+                  <button class="play-btn"><ion-icon name="play-outline"></ion-icon></button>
+                  <button class="pause-btn"><ion-icon name="pause-outline"></ion-icon></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="news">
+      <div class="section-inner">
+        <p class="section-sub">NEWS</p>
+        <h2 class="section-title">모든 사람들이 건강하고 행복한 미래를 만들어가는 연구원, 한국한의학연구원입니다.</h2>
+        <div class="news-content">
+
+          <div class="section-left">
+            <div class="news-tabs">
+              <button class="news-tab active" data-type="ALL">ALL</button>
+              <button class="news-tab" data-type="공지">공지</button>
+              <button class="news-tab" data-type="뉴스">KIOM뉴스</button>
+              <button class="news-tab" data-type="채용">채용</button>
+              <button class="news-tab" data-type="입찰">입찰</button>
+              <button class="news-more"><ion-icon name="add-outline"></ion-icon></button>
+            </div>
+
+            <ul class="news-list">
+              <li class="news-item">
+                <a href="#none">
+                  <span class="category" data-menu=""></span>
+                  <p class="title"></p>
+                  <span class="date"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="section-right">
+            <div class="section-head">
+              <h2>팝업존</h2>
+              <div class="popupzone-btn">
+                <div class="popupzone-pagination"></div>
+                <div class="popupzone-pbtn">
+                  <button class="popup-play-btn"><ion-icon name="play-outline"></ion-icon></button>
+                  <button class="popup-pause-btn"><ion-icon name="pause-outline"></ion-icon></button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper popupzoneSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/popupzone.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/popupzone.jpg" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- popup banner -->
+    <section class="banner">
+      <div class="section-inner">
+        <ul class="banner-list">
+          <li><a href="#">
+              <img src="img/section3-1.png" alt="">
+              <p>
+                <strong>견학신청</strong>
+                <span>언제나 여러분의 방문을 환영합니다.</span>
+              </p>
+            </a>
+          </li>
+          <li><a href="#">
+              <img src="img/section3-2.png" alt="">
+              <p>
+                <strong>참여프로그램</strong>
+                <span>전문가들과 함께 한의학적 지식을 쑥쑥</span>
+              </p>
+            </a>
+          </li>
+          <li><a href="#">
+              <img src="img/section3-3.png" alt="">
+              <p>
+                <strong>기술이전</strong>
+                <span>개발한 연구개발물을 산업체 등에 이전</span>
+              </p>
+            </a>
+          </li>
+          <li><a href="#">
+              <img src="img/section3-4.png" alt="">
+              <p>
+                <strong>계약관련 법령·연구원규정</strong>
+                <span>계약에 필요한 법령과 연구원내 규정 안내</span>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- media -->
+    <section class="media">
+      <div class="section-inner">
+        <p class="section-sub">Media KIOM</p>
+        <h2 class="section-title">한의학의 이야기를 다양한 미디어 채널을 통해 쉽고 재미있게 소개하고 있습니다.</h2>
+
+        <div class="media-title-section">
+          <h2 class="media-title">홍보동영상</h2>
+          <button class="media-more"><ion-icon name="add-outline"></ion-icon></button>
+        </div>
+
+        <div class="media-content">
+          <div class="media-main">
+            <a href="#none">
+              <img src="img/section4-1.jpg" alt="">
+              <p class="media-main-title">[쿔테이블] 한의학, 어디까지 알고 있나요? 한의학 연구원과 함께하는 한의학개론</p>
+            </a>
+          </div>
+          <div class="media-sub">
+            <div class="media-sub-item">
+              <a href="#none">
+                <img src="img/section4-2.jpg" alt="">
+                <p class="media-sub-title">키오미와 함께 둘러보자! 한약자원연구센터</p>
+              </a>
+            </div>
+            <div class="media-sub-item">
+              <a href="#none">
+                <img src="img/section4-3.jpg" alt="">
+                <p class="media-sub-title">[쿔테이블] 위장병이 낫지 않는 진짜 이유는? 담적증후군의 실체를 밝힌다!</p>
+              </a>
+            </div>
+            <div class="media-sub-item">
+              <a href="#none">
+                <img src="img/section4-4.jpg" alt="">
+                <p class="media-sub-title">키오미와 떠나는 한의기술응용센터 탐방!</p>
+              </a>
+            </div>
+            <div class="media-sub-item">
+              <a href="#none">
+                <img src="img/section4-5.jpg" alt="">
+                <p class="media-sub-title">멸종위기 약용식물을 구하라! 전통의약학의 미래, 스마트허벌로믹스</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <ul class="media-links">
+          <li class="youtube">
+            <a href="#none">
+              <ion-icon class="logo-icon link-youtube" name="logo-youtube"></ion-icon>
+              유튜브
+              <ion-icon class="logo-next" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="#none">
+              <img class="logo-icon link-instagram" src="img/instagram.svg" alt="">
+              인스타그램
+              <ion-icon class="logo-next" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="#none">
+              <img class="logo-icon link-facebook" src="img/logo-facebook.svg" alt="">
+              페이스북
+              <ion-icon class="logo-next" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+          <li class="blog">
+            <a href="#none">
+              <img class="logo-icon link-blog" src="img/blog.svg" alt="">
+              블로그
+              <ion-icon class="logo-next" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- related sites -->
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <section class="footer-top">
+          <div class="related">
+            <button class="ft-btn related-btn">관련 사이트<ion-icon name="chevron-down-outline"></ion-icon></button>
+            <ul class="related-list">
+              <li><a href="#none">한의기술응용센터</a></li>
+              <li><a href="#none">한약자원연구센터</a></li>
+              <li><a href="#none">WHO 전통의학협력센터</a></li>
+              <li><a href="#none">통합의학저널IMR</a></li>
+              <li><a href="#none">청렴신고센터</a></li>
+              <li><a href="#none">국민권익위원회 청렴포털</a></li>
+              <li><a href="#none">KIOM 홍보콘텐츠</a></li>
+            </ul>
+          </div>
+          <div class="sns">
+            <button class="ft-btn sns-btn">SNS<ion-icon name="chevron-down-outline"></ion-icon></button>
+            <ul class="sns-list">
+              <div class="icon-wrap youtube-wrap">
+                <li><a href="#none"><img src="img/logo-youtube.svg" alt=""></a></li>
+                <li><a href="#none"><img src="img/logo-youtube.svg" alt=""></a></li>
+              </div>
+              <div class="icon-wrap blog-wrap">
+                <li><a href="#none"><img src="img/blog.svg" alt=""></a></li>
+                <li><a href="#none"><img src="img/blog.svg" alt=""></a></li>
+              </div>
+              <div class="icon-wrap insta-wrap">
+                <li><a href="#none"><img src="img/instagram.svg" alt=""></a></li>
+                <li><a href="#none"><img src="img/instagram.svg" alt=""></a></li>
+              </div>
+              <div class="icon-wrap facebook-wrap">
+                <li><a href="#none"><img src="img/logo-facebook.svg" alt=""></a></li>
+                <li><a href="#none"><img src="img/logo-facebook.svg" alt=""></a></li>
+              </div>
+              <div class="icon-wrap kakao-wrap">
+                <li><a href="#none"><img src="img/KakaoTalk.svg" alt=""></a></li>
+                <li><a href="#none"><img src="img/KakaoTalk.svg" alt=""></a></li>
+              </div>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="footer-content">
+        <div class="footer-inner">
+          <div class="footer-left">
+    
+            <ul class="footer-menu">
+              <li><a href="#none">개인정보처리방침</a></li>
+              <li><a href="#none">고객헌장</a></li>
+              <li><a href="#none">찾아오시는길</a></li>
+              <li><a href="#none">PC원격지원</a></li>
+            </ul>
+    
+            <div class="footer-info">
+              <div class="info-left">
+                <p>(34054) 대전광역시 유성구 유성대로 1672&nbsp;</p>
+                <p>/ TEL (042) 861-1994 / FAX (042) 861-5800</p>
+              </div>
+              <p class="copyright">
+                COPYRIGHT© 2022 BY KOREA INSTITUTE OF ORIENTAL MEDICINE. ALL RIGHTS RESERVED.
+              </p>
+            </div>
+          </div>
+          <div class="footer-right">
+            <img src="img/mark01.png" alt="">
+            <img src="img/mark02.png" alt="">
+          </div>
+        </div>
+    
+      </div>
+    </footer>
+
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/popup.js"></script>
+  <script src="js/header.js"></script>
+  <script type="module" src="js/script.js"></script>
+
+</body>
+
+</html>

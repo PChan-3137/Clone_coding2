@@ -1,0 +1,24 @@
+<svg id="_02" data-name="02" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.696" height="38.886" viewBox="0 0 37.696 38.886">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.391" y1="1.864" x2="0.395" y2="0.117" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8ddcfd"/>
+      <stop offset="0.638" stop-color="#8cdbfd"/>
+      <stop offset="1" stop-color="#3d6bfa"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.8" y1="1.243" x2="0.8" y2="-0.173" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3e6efa"/>
+      <stop offset="1" stop-color="#8ddcfd"/>
+    </linearGradient>
+  </defs>
+  <g id="그룹_21116" data-name="그룹 21116" transform="translate(0 0)">
+    <path id="패스_29434" data-name="패스 29434" d="M600.282,225.792H572.534a1.843,1.843,0,0,0-1.842,1.842v27.831a9.213,9.213,0,0,0,9.214,9.213h13.006a9.214,9.214,0,0,0,9.214-9.213V227.634A1.843,1.843,0,0,0,600.282,225.792Z" transform="translate(-570.692 -225.792)" fill="url(#linear-gradient)"/>
+    <g id="그룹_21115" data-name="그룹 21115" transform="translate(8.177 30.314)">
+      <path id="패스_29435" data-name="패스 29435" d="M589.555,275.848v-1.976h23.626v1.976a6.6,6.6,0,0,1-6.6,6.6h-22.22a6.634,6.634,0,0,1-.7-.038A6.6,6.6,0,0,0,589.555,275.848Z" transform="translate(-583.661 -273.872)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+  <g id="그룹_21117" data-name="그룹 21117" transform="translate(7.078 10.613)">
+    <line id="선_1805" data-name="선 1805" x2="13.184" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="선_1806" data-name="선 1806" x2="7.174" transform="translate(0.193 6.398)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+  <path id="패스_29436" data-name="패스 29436" d="M589.807,228.764a19.326,19.326,0,0,0-.229-2.972H572.534a1.843,1.843,0,0,0-1.842,1.842v20.357A19.229,19.229,0,0,0,589.807,228.764Z" transform="translate(-570.692 -225.792)" fill="#fff" opacity="0.2"/>
+</svg>

@@ -1,0 +1,33 @@
+@use 'popup';
+@use 'base/font';
+@use 'base/reset';
+@use 'header';
+@use 'base/mixin' as m;
+@use 'visual';
+@use 'research';
+@use 'news';
+@use 'banner';
+@use 'media';
+@use 'footer';
+
+.section-inner{
+  max-width: 1280px;
+  margin: 0 auto 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width:1280px){
+    margin: 0 18px;
+  }
+}
+.section-sub {
+  font-size: 42px;
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.section-title {
+  font-size: 18px;
+  color: #767676;
+  margin-bottom: 70px;
+}

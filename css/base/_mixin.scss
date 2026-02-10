@@ -1,0 +1,18 @@
+@mixin listBefore{
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  width: 1px;
+  height: 6px;
+  background-color: #B1B1B1;
+}
+@mixin listAfter{
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  width: 6px;
+  height: 1px;
+  background-color: #B1B1B1;
+}

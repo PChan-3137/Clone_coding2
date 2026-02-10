@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.712" height="47.135" viewBox="0 0 47.712 47.135">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.829" x2="0.5" y2="1.119" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8ddcfd"/>
+      <stop offset="1" stop-color="#3d6bfa"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="-0.454" x2="0.5" y2="1.256" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.422" y1="0" x2="0.39" y2="1" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="_05" data-name="05" transform="translate(1.5 1.68)">
+    <g id="그룹_21133" data-name="그룹 21133" transform="translate(0 17.11)">
+      <g id="그룹_21132" data-name="그룹 21132">
+        <g id="그룹_21130" data-name="그룹 21130">
+          <path id="패스_29451" data-name="패스 29451" d="M735.945,422.209a6.7,6.7,0,0,0,6.224.051l19.648-11.517c1.72-1.008,1.771-2.74.114-3.848L747.5,397.259a6.608,6.608,0,0,0-6.2-.282L719.768,408.7c-1.751.953-1.79,2.58-.087,3.617Z" transform="translate(-718.429 -396.337)" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="그룹_21131" data-name="그룹 21131">
+          <path id="패스_29452" data-name="패스 29452" d="M735.945,422.209a6.7,6.7,0,0,0,6.224.051l19.648-11.517c1.72-1.008,1.771-2.74.114-3.848L747.5,397.259a6.608,6.608,0,0,0-6.2-.282L719.768,408.7c-1.751.953-1.79,2.58-.087,3.617Z" transform="translate(-718.429 -396.337)" fill="none" stroke="#fff" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_21137" data-name="그룹 21137" transform="translate(0 8.555)">
+      <g id="그룹_21136" data-name="그룹 21136">
+        <g id="그룹_21134" data-name="그룹 21134" opacity="0.77">
+          <path id="패스_29453" data-name="패스 29453" d="M735.945,410.409a6.7,6.7,0,0,0,6.224.051l19.648-11.518c1.72-1.008,1.771-2.739.114-3.847L747.5,385.458a6.608,6.608,0,0,0-6.2-.281L719.768,396.9c-1.751.953-1.79,2.58-.087,3.616Z" transform="translate(-718.429 -384.537)" fill="url(#linear-gradient-2)"/>
+        </g>
+        <g id="그룹_21135" data-name="그룹 21135">
+          <path id="패스_29454" data-name="패스 29454" d="M735.945,410.409a6.7,6.7,0,0,0,6.224.051l19.648-11.518c1.72-1.008,1.771-2.739.114-3.847L747.5,385.458a6.608,6.608,0,0,0-6.2-.281L719.768,396.9c-1.751.953-1.79,2.58-.087,3.616Z" transform="translate(-718.429 -384.537)" fill="none" stroke="#fff" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_21141" data-name="그룹 21141" transform="translate(0)">
+      <g id="그룹_21140" data-name="그룹 21140">
+        <g id="그룹_21138" data-name="그룹 21138" opacity="0.74">
+          <path id="패스_29455" data-name="패스 29455" d="M735.945,398.609a6.7,6.7,0,0,0,6.224.051l19.648-11.518c1.72-1.008,1.771-2.739.114-3.847L747.5,373.658a6.606,6.606,0,0,0-6.2-.281l-21.538,11.718c-1.751.953-1.79,2.58-.087,3.617Z" transform="translate(-718.429 -372.736)" fill="url(#linear-gradient-3)"/>
+        </g>
+        <g id="그룹_21139" data-name="그룹 21139">
+          <path id="패스_29456" data-name="패스 29456" d="M735.945,398.609a6.7,6.7,0,0,0,6.224.051l19.648-11.518c1.72-1.008,1.771-2.739.114-3.847L747.5,373.658a6.606,6.606,0,0,0-6.2-.281l-21.538,11.718c-1.751.953-1.79,2.58-.087,3.617Z" transform="translate(-718.429 -372.736)" fill="none" stroke="#fff" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
